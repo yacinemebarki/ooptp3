@@ -1,3 +1,5 @@
+package firstexo;
+
 import java.util.*;
 
 public class depot <T extends Identifiable> {

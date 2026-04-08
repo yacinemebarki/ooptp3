@@ -1,3 +1,4 @@
+package firstexo;
 public class videoCours implements Identifiable {
     int id;
     String titre;

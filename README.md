@@ -62,7 +62,7 @@ On remplace la création directe par une référence explicite du type réel via
 
 # Exercice 2 Réflexivité en Java (Mini Inspecteur)
 
-### path: src/main/java/secondtexo
+### path: `src/main/java/secondexo`
 
 ### files:
 
@@ -75,7 +75,7 @@ On remplace la création directe par une référence explicite du type réel via
 
 # Exercice 2 Réflexivité en Java (Mini Inspecteur)
 
-### path: src/main/java/secondtexo
+### path: `src/main/java/thirdexo`
 
 ### files:
 

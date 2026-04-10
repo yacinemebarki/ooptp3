@@ -1,9 +1,8 @@
 package thirdexo3;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
+import java.lang.reflect.*;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class RegistreOperations <T extends operation>{
@@ -73,5 +72,13 @@ public class RegistreOperations <T extends operation>{
         System.out.println("fin affichage des constrocutor");
 
     }
+    public void excutetous(List<? extends T> operations){
+        for (T op:operations){
+            op.excute();
+        }
+    }
+    
+
+
 
 }
